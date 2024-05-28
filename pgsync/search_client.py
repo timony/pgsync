@@ -396,7 +396,7 @@ def get_search_client(
                     service,
                     session_token=credentials.token,
                 ),
-                use_ssl=True,
+                # use_ssl=True,
                 verify_certs=True,
                 node_class=node_class,
             )
